@@ -2,9 +2,4 @@
 
 cat <<EOF >a.c
 #include <stdio.h>
-int f()
-{
-    void *p = malloc(1);
-    return 42;
-}
 EOF
